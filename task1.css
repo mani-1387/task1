@@ -1,0 +1,182 @@
+
+:root{
+
+    --t:#313131;
+    --button:#515DEF;
+
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+.back{
+    width: 100%;
+    height: 1024px;
+    background-color: #fff;
+}
+
+.back .logo{
+    width: 215px;
+    height: 53px;
+    position: absolute;
+    top: 51px;
+    left: 1117px;
+    padding: 16px 8px;
+    display: flex;
+}
+.back .logo .icon{
+    position: relative;
+    top: 4px;
+}
+
+.back .logo .text{
+    position: relative;
+    left: 14px;
+    top:4px;
+}
+
+.back .logo .text a{
+    text-decoration: none;
+    color: #313131;
+    font-weight: bold 700;
+    color: var(--t);
+    font-size: 35px;
+    line-height: 150%;
+    letter-spacing: -1%;
+}
+
+.back .image{
+    width: 486px;
+    height: 816px;
+    position: relative;
+    top: 110px;
+    left: 104px;
+    bottom: 104px;
+    right: 850px;
+    border-radius: 16px;
+
+}
+
+.back .frameparent{
+    width: 640px;
+    height: 678px;
+    position: absolute;
+    top: 204px;
+    left: 696px;
+    bottom: 142px;
+}
+
+.back .frameparent .frame1{
+    width: 640px;
+    height: 100px;
+}
+
+.back .frameparent .frame1 a{
+    position: relative;
+    bottom: 16px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--t);
+    text-decoration: none;
+}
+
+.back .frameparent .frame1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    opacity: 75%;
+    color: var(--t);
+}
+
+.back .frameparent .frame2{
+    width: 640px;
+    height: 530px;
+    position: relative;
+}
+
+.back .frameparent .frame2 .frame21{}
+.back .frameparent .frame2 .frame21 .frame210{
+    width: 640px;
+    height: 56px;
+    position: relative;
+    display: flex;
+}
+
+
+
+.back .frameparent .frame2 .frame21  .frame210 .frame211{
+    position: relative;
+    right: 24px;
+    bottom: 24px;
+}
+
+.back .frameparent .frame2 .frame21  .frame210 .frame211 input{
+    width: 380px;
+    height: 56px;
+    border: 1px solid #79747e;
+    border-radius: 4px;
+}
+
+.back .frameparent .frame2 .frame21  .frame210 .frame212 .label{}
+.back .frameparent .frame2 .frame21  .frame210 .frame211 .label a{
+    background-color: #fff;
+    padding-top: 50px;
+}
+.back .frameparent .frame2 .frame21  .frame210 .frame212{
+    position: relative;
+    right: 24px;
+    left: 24px;
+    bottom: 24px;
+}
+.back .frameparent .frame2 .frame21  .frame210 .frame212 input{
+    width: 380px;
+    height: 56px;
+    border: 1px solid #79747e;
+    border-radius: 4px;
+}
+
+.back .frameparent .frame2 .frame21  .frame210 .frame212 .label{}
+.back .frameparent .frame2 .frame21  .frame210 .frame212 .label a{}
+.back .frameparent .frame2 .frame21  .frame210 .frame213{
+    position: relative;
+    right: 24px;
+}
+.back .frameparent .frame2 .frame21  .frame210 .frame213 input{
+    width: 380px;
+    height: 56px;
+    border: 1px solid #79747e;
+    border-radius: 4px;
+}
+
+.back .frameparent .frame2 .frame21  .frame210 .frame212 .label{}
+.back .frameparent .frame2 .frame21  .frame210 .frame213 .label a{}
+.back .frameparent .frame2 .frame21  .frame210 .frame214{
+    position: relative;
+    right: 24px;
+    left: 24px;
+}
+.back .frameparent .frame2 .frame21  .frame210 .frame214 input{
+    width: 380px;
+    height: 56px;
+    border: 1px solid #79747e;
+    border-radius: 4px;
+}
+
+.back .frameparent .frame2 .frame21  .frame210 .frame212 .label{}
+.back .frameparent .frame2 .frame21  .frame210 .frame214 .label a{}
+.back .frameparent .frame2 .frame21 .text-field{}
+.back .frameparent .frame2 .frame21 .text-field input{}
+
+.back .frameparent .frame2 .frame21  .frame210 .frame212 .label{}
+.back .frameparent .frame2 .frame21 .text-field .label a{}
+.back .frameparent .frame2 .frame21 .check-box{}
+.back .frameparent .frame2 .frame21 .check-box  input{}
+.back .frameparent .frame2 .frame21 .check-box .label a{}
+
+
+
